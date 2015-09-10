@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>View 5desk.txt Twelve-dicts - Scrapmaker.com</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <script src="/js/jquery.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div id="header" class="layout">
+      <a href="/home"><img id="logo" src="/images/scrapmaker.png" height="50"></a><p style="margin-top: -5px; color: #333;">Useful lists for geeks, machine learning, and linguists.</p>
+      <!-- <div id="menu">
+      <a href="/wordlists">Word Lists</a>
+      <a href="/extractor">Extractor Tool</a>
+      <a href="/contact">Contact Us</a>
+      </div> -->
+    </div>
+
+    <div id="content" class="layout">
+      <a href="/dir/twelve-dicts"><img src="/images/arrow_left.png" class="icon">Back</a> | <a href="/home"><img src="/images/timeline_marker.png" class="icon">WordLists</a><br/><br/><h1>5desk  <span style="font-weight: normal; color: #aaa;">- 5desk.txt</span></h1><a href="/download/data/wordlists/twelve-dicts/5desk.txt"><img src="/images/tick.png" class="icon">Download Complete Wordlist</a> (641.68 K)<div class="view">Showing <b>100</b> Randomly Sampled Lines... <a href=""><img src="/images/arrow_refresh.png" class="icon" title="refresh random words" alt="refresh"></a></div><pre class="cols">bailout<br/>unlink<br/>Cajan<br/>routinize<br/>escapism<br/>marbles<br/>simonize<br/>courtezan<br/>basely<br/>workroom<br/>pathetically<br/>vegetate<br/>epidemiology<br/>told<br/>histologically<br/>pronuclear<br/>monovalence<br/>buffeting<br/>calyx<br/>liveable<br/>gayly<br/>ultramodern<br/>understate<br/>starveling<br/>unparliamentary<br/>nonclotting<br/>paramecia<br/>obsequiously<br/>dart<br/>gangly<br/>bias<br/>emoticon<br/>episiotomy<br/>creature<br/>approximation<br/>nickname<br/>rattlebrained<br/>subsume<br/>Scarlatti<br/>sexagesimal<br/>streptococcal<br/>immoral<br/>ridgy<br/>Chancellor<br/>faultless<br/>cocaine<br/>stalked<br/>tearer<br/>duple<br/>up<br/>Hama<br/>otorhinolaryngology<br/>tailor<br/>Fabian<br/>interspersion<br/>sleight<br/>toss<br/>bloodthirsty<br/>Iliad<br/>bureaucratize<br/>infotainment<br/>linearly<br/>Heine<br/>redemptory<br/>pronto<br/>indict<br/>favoured<br/>implicational<br/>epiphyte<br/>bolshevism<br/>dehydrogenation<br/>changer<br/>maggot<br/>weasel<br/>effectually<br/>spongy<br/>charade<br/>buffalo<br/>puddling<br/>homogenized<br/>autodidact<br/>blameworthy<br/>alchemic<br/>unfelt<br/>Holarctic<br/>Kayseri<br/>repulsiveness<br/>evaporite<br/>Murmansk<br/>commit<br/>humbling<br/>adroit<br/>pitiableness<br/>sharpie<br/>replay<br/>gracelessness<br/>diabolical<br/>authorize<br/>sempiternal<br/>maria<br/></pre><script type="text/javascript"><!--
+google_ad_client = "ca-pub-3200934578349284";
+/* 728x90, created 6/14/10 */
+google_ad_slot = "8075788044";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script><br/><br/><a href="/dir/twelve-dicts"><img src="/images/arrow_left.png" class="icon">Back</a> | <a href="/home"><img src="/images/timeline_marker.png" class="icon">WordLists</a>
+
+    </div>
+
+    <div id="footer" class="layout">
+      <div id="footer-text" class="rounded20">Copyright &copy; <b>ScrapMaker.com</b> 2008-2015. All rights reserved.
+        <a href="/contact"><img src="/images/email.png" class="icon" title="contact us" alt="contact us" /></a>
+        <a href="/extractor"><img src="/images/plugin_link.png" class="icon" title="extractor" alt="extractor" /></a>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      try {
+        var pageTracker = _gat._getTracker("UA-179022-15");
+        pageTracker._trackPageview();
+      } catch(err) {}</script>
+
+
+  </body>
+</html>
