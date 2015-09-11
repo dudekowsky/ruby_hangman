@@ -7,6 +7,7 @@ class Hangman
     @current_guess = "_" * @sought_word.length
     @lives_left = 10
     @letters_guessed = []
+    @false_letters = []
     if ai == true
       return ai_start
     else
@@ -18,8 +19,8 @@ class Hangman
     possible_words = File.readlines("5desk.txt").map{|word| word.strip.downcase}.select{|word| word.length == @current_guess.length}
     until game_over?
       possible_words = sort_out(possible_words).uniq
-      puts "guessed letters were: #{@letters_guessed}"
-      puts possible_words
+      # puts "guessed letters were: #{@letters_guessed}"
+      # puts possible_words
       begin
       guess = possible_words.sample[rand(@current_guess.length)]
       end until @letters_guessed.include?(guess) == false
@@ -49,6 +50,16 @@ class Hangman
           else
             break
           end
+        end
+      end
+    end
+    possible_words_array.select! do |entry|
+      @false_letters.each do |false_letter|
+        if entry.include?(false_letter)
+          false
+          break
+        else
+          true
         end
       end
     end
@@ -148,6 +159,7 @@ class Hangman
         puts "You already guessed this! 1 life lost :("
       else
         puts "Letter is not included! 1 life lost :("
+        @false_letters << guess
       end
       @lives_left -= 1
     end
@@ -162,3 +174,13 @@ else
   ai = false
 end
 Hangman.new.go(ai)
+i = 0
+n = 0
+1000.times do
+  n += 1
+  if Hangman.new.go(true)
+    i += 1
+  end
+  puts n
+  puts i
+end
