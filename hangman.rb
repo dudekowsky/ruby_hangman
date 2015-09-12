@@ -21,9 +21,11 @@ class Hangman
       possible_words = sort_out(possible_words).uniq
        puts "already guessed letters: #{@letters_guessed}"
        puts "possible words: #{possible_words}"
+       puts "current guess: #{@current_guess}"
       begin
       guess = possible_words.sample[rand(@current_guess.length)]
       end until @letters_guessed.include?(guess) == false
+      puts "guessing: #{guess}"
       process_guess(guess)
     end
     puts "sought word was: #{@sought_word}"
