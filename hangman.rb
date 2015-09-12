@@ -19,8 +19,8 @@ class Hangman
     possible_words = File.readlines("5desk.txt").map{|word| word.strip.downcase}.select{|word| word.length == @current_guess.length}
     until game_over?
       possible_words = sort_out(possible_words).uniq
-      # puts "guessed letters were: #{@letters_guessed}"
-      # puts possible_words
+       puts "already guessed letters: #{@letters_guessed}"
+       puts "possible words: #{possible_words}"
       begin
       guess = possible_words.sample[rand(@current_guess.length)]
       end until @letters_guessed.include?(guess) == false
@@ -174,13 +174,3 @@ else
   ai = false
 end
 Hangman.new.go(ai)
-i = 0
-n = 0
-1000.times do
-  n += 1
-  if Hangman.new.go(true)
-    i += 1
-  end
-  puts n
-  puts i
-end
